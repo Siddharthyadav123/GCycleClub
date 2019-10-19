@@ -405,6 +405,7 @@ public class NiboOriginDestinationPickerFragment extends BaseNiboFragment<Origin
             @Override
             public void firstLocationFound(double lat, double long0) {
                 Toast.makeText(getActivity(), "Got loc :"+lat+" "+long0, Toast.LENGTH_SHORT).show();
+                ///Helloo
             }
         };
     }
